@@ -3,4 +3,6 @@
 </script>
 
 <MessagesBar />
-<slot />
+<div class="ml-64">
+	<slot />
+</div>

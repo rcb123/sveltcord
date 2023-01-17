@@ -7,7 +7,7 @@
 	servers = $CommunityStore;
 </script>
 
-<div class="relative top-0 left-0 h-screen w-16 m-0 flex flex-col bg-gray-900 text-white shadow-lg">
+<div class="fixed top-0 left-0 h-screen w-16 m-0 flex flex-col bg-gray-900 text-white shadow-lg z-10">
 	<SideBarIcon icon="mdi:fire" tooltip="Direct Messages" ref="/friends" />
 	<hr class="border-solid border-2 my-1 border-red-500" />
 
@@ -21,6 +21,6 @@
 
 	<!-- Sidebar footer -->
 	<div class="absolute w-full bottom-0 pb-2">
-		<SideBarIcon icon="mdi:github" tooltip="sveltcord" ref="/contact" />
+		<SideBarIcon icon="mdi:github" tooltip="Source Code" ref="https://github.com/rcb123/sveltcord" />
 	</div>
 </div>
